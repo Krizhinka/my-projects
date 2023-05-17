@@ -1,0 +1,150 @@
+:root {
+  --font-family: "Times New Roman", Times, serif;
+  --primary-color: #0797f7;
+  --secondary-color: #f5ed79;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  --border-radius: 5px;
+}
+
+body {
+  display: block;
+  /* max-width: 800px; */
+  font-family: var(--font-family);
+  margin: 150px auto;
+}
+
+/*  
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0px;
+}
+
+*/
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 46px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.navbar.border {
+  border: 2px solid var(--primary-color) !important;
+}
+
+.img-fluid {
+  display: block;
+  margin: 50px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.my-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.contact-me-link {
+  border: 2px solid var(--secondary-color);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  cursor: pointer;
+}
+
+.project-link {
+  border: 2px solid var(--secondary-color);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  cursor: pointer;
+}
+
+.about-me-link {
+  border: 2px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  padding: 20px 25px;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  cursor: pointer;
+}
+
+.homepage-link {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.homepage-link:active {
+  color: var(--primary-color);
+}
+
+.information-about-me {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  border-radius: var(--border-radius);
+}
+
+p {
+  display: block;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+p.about {
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  color: var(--primary-color);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.bg-body-secondary {
+  background: var(--secondary-color) !important;
+}
+
+div.bg-body-secondary {
+  border: 2px solid var(--primary-color);
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
