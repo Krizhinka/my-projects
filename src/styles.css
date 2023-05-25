@@ -49,7 +49,7 @@ h3 {
 
 .my-links {
   display: flex;
-  margin-top: 40px;
+  margin: 60px auto 100px;
   justify-content: center;
 }
 
